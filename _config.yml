@@ -32,7 +32,7 @@ prose:
             value: 'page'
           - name: 'Post'
             value: 'post'
-      name: "permalink"
+      - name: "permalink"
           field:
             element: "text"
             label: "Permalink"
