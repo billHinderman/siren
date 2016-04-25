@@ -23,6 +23,21 @@ prose:
   media: 'media'
   metadata:
     _pages:
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Page Layout"
+          options:
+          - name: 'Page'
+            value: 'page'
+          - name: 'Post'
+            value: 'post'
+      name: "permalink"
+          field:
+            element: "text"
+            label: "Permalink"
+            placeholder: "buy-bed-bath-beyond-gift-cards"
+            value: ""
       - name: "brand-slug"
         field:
           element: "text"
@@ -35,38 +50,35 @@ prose:
           label: "Brand's Name (pretty)"
           placeholder: "Bed Bath & Beyond"
           value: ""
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Page Layout"
-          options:
-          - name: 'Page'
-            value: 'page'
-          - name: 'Post'
-            value: 'post'
       - name: "testimonial-body"
         field:
           element: "textarea"
-          label: "Testimonial body"
+          label: "Testimonial Body"
           placeholder: "Lorem ipsum dolor sit amet."
           value: ""
       - name: "testimonial-location"
         field:
           element: "text"
-          label: "Testimonial location"
+          label: "Testimonial Location"
           placeholder: "Chicago, IL"
           value: ""
       - name: "testimonial-headline"
         field:
           element: "text"
-          label: "Testimonial headline"
+          label: "Testimonial Headline"
           placeholder: "An entrepreneur and savvy shopper, see how he uses Raise to make his money worth more."
           value: ""
-      - name: "testimonial-name"
+      - name: "testimonial-name-first"
         field:
           element: "text"
-          label: "Testimonial name"
-          placeholder: "George Busoius"
+          label: "Testimonial First Name"
+          placeholder: "George"
+          value: ""
+      - name: "testimonial-name-last"
+        field:
+          element: "text"
+          label: "Testimonial Last Name"
+          placeholder: "Busoius"
           value: ""
       - name: "title"
         field:
