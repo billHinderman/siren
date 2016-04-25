@@ -34,10 +34,10 @@ prose:
           element: "select"
           label: "Page Layout"
           options:
-          - name: 'Page'
-            value: 'page'
-          - name: 'Post'
-            value: 'post'
+          - name: "Page"
+            value: "page"
+          - name: "Post"
+            value: "post"
       - name: "brand-slug"
         field:
           element: "text"
