@@ -31,7 +31,6 @@ prose:
     - /_sass
     - /assets
     - /media
-    - .gitignore
   siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
