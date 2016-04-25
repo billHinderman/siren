@@ -24,6 +24,7 @@ collections:
 
 prose:
   rooturl: '_pages'
+  siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
     _pages:
