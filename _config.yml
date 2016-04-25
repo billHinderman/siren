@@ -37,8 +37,37 @@ prose:
           value: ""
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "select"
+          label: "Page Layout"
+          options:
+          - name: 'Page'
+            value: 'page'
+          - name: 'Post'
+            value: 'post'
+      - name: "testimonial-body"
+        field:
+          element: "textarea"
+          label: "Testimonial body"
+          placeholder: "Lorem ipsum dolor sit amet."
+          value: ""
+      - name: "testimonial-location"
+        field:
+          element: "text"
+          label: "Testimonial location"
+          placeholder: "Chicago, IL"
+          value: ""
+      - name: "testimonial-headline"
+        field:
+          element: "text"
+          label: "Testimonial headline"
+          placeholder: "An entrepreneur and savvy shopper, see how he uses Raise to make his money worth more."
+          value: ""
+      - name: "testimonial-name"
+        field:
+          element: "text"
+          label: "Testimonial name"
+          placeholder: "George Busoius"
+          value: ""
       - name: "title"
         field:
           element: "text"
