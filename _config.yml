@@ -23,6 +23,7 @@ collections:
     output: true
 
 prose:
+  rooturl: '/'
   ignore:
     - /_includes
     - /_layouts
