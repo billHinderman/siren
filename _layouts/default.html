@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
+  {% include structural/head.html %}
+  <body class="{{ page.brand-slug }}">
+    {% include structural/header.html %}
 
     <div class="page-content">
       <div class="wrapper">
@@ -13,8 +10,6 @@
       </div>
     </div>
 
-    {% include footer.html %}
-
+    {% include structural/footer.html %}
   </body>
-
 </html>
