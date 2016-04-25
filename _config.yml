@@ -28,9 +28,11 @@ prose:
     - /_includes
     - /_layouts
     - /_site
+    - /_sass
     - /assets
     - /media
-    - .config.yml
+    - _config.yml
+    - .gitignore
   siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
