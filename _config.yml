@@ -22,5 +22,4 @@ markdown: kramdown
 
 
 prose:
-  rooturl: '_posts'
-  
+  rooturl: '_pages'
