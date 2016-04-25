@@ -23,15 +23,6 @@ prose:
   media: 'media'
   metadata:
     _pages:
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Page Layout"
-          options:
-          - name: 'Page'
-            value: 'page'
-          - name: 'Post'
-            value: 'post'
       - name: "brand-slug"
         field:
           element: "text"
@@ -44,6 +35,15 @@ prose:
           label: "Brand's Name (pretty)"
           placeholder: "Bed Bath & Beyond"
           value: ""
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Page Layout"
+          options:
+          - name: 'Page'
+            value: 'page'
+          - name: 'Post'
+            value: 'post'
       - name: "testimonial-body"
         field:
           element: "textarea"
