@@ -23,7 +23,7 @@ collections:
     output: true
 
 prose:
-  rooturl: '_pages'
+  rooturl: '_pages, _data'
   siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
@@ -34,6 +34,10 @@ prose:
           label: "Permalink"
           placeholder: "/buy-bed-bath-beyond-gift-cards"
           value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
       - name: "layout"
         field:
           element: "select"
@@ -43,17 +47,13 @@ prose:
             value: "page"
           - name: "Post"
             value: "post"
+          - name: "Default"
+            value: "default"
       - name: "brand-slug"
         field:
           element: "text"
           label: "Brand's Name (slug)"
           placeholder: "bed-bath-beyond"
-          value: ""
-      - name: "brand-name"
-        field:
-          element: "text"
-          label: "Brand's Name (pretty)"
-          placeholder: "Bed Bath & Beyond"
           value: ""
       - name: "testimonial-body"
         field:
