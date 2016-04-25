@@ -23,7 +23,13 @@ collections:
     output: true
 
 prose:
-  rooturl: '_pages, _data'
+  ignore:
+    - /_includes
+    - /_layouts
+    - /_site
+    - /assets
+    - /media
+    - .config.yml
   siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
