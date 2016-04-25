@@ -24,7 +24,7 @@ collections:
 
 prose:
   rooturl: '_pages'
-  media: 'assets/media'
+  media: 'media'
   metadata:
     _pages:
       - name: "permalink"
