@@ -23,7 +23,7 @@ collections:
     output: true
 
 prose:
-  rooturl: '_pages'
+  rooturl: '/'
   siteurl: 'http://localhost:4000'
   media: 'media'
   metadata:
