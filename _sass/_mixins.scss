@@ -1,11 +1,13 @@
 @mixin box-shadow($left,$top,$blur,$pull,$color) {
   -webkit-box-shadow: $left $top $blur $pull $color;
   -moz-box-shadow: $left $top $blur $pull $color;
+  box-shadow: $left $top $blur $pull $color;
 }
 
-@mixin box-shadow-inset($left,$top,$blur,$color) {
-  -webkit-box-shadow: $left $top $blur $color inset;
-  -moz-box-shadow: $left $top $blur $color inset;
+@mixin box-shadow-inset($left,$top,$blur,$pull,$color) {
+  -webkit-box-shadow: $left $top $blur $pull $color inset;
+  -moz-box-shadow: $left $top $blur $pull $color inset;
+  box-shadow: $left $top $blur $pull $color inset;
 }
 
 @mixin border-radius-all($radius) {
