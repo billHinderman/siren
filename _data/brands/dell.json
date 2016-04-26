@@ -1,0 +1,25 @@
+{
+  "color": "#0188cc",
+  "name-pretty": "Dell",
+  "img-card": "/media/brands/dell/card.png",
+  "img-header": "/media/brands/dell/bg.png",
+  "img-logo": "/media/brands/dell/logo.png",
+  "img-testimonial": "/media/brands/dell/testimonial.png",
+  "savings": [
+    {
+      "pay": 23,
+      "get": 25,
+      "save": 2
+    },
+    {
+      "pay": 46,
+      "get": 50,
+      "save": 4
+    },
+    {
+      "pay": 92,
+      "get": 100,
+      "save": 8
+    }
+  ],
+}
