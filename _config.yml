@@ -24,6 +24,14 @@ collections:
 
 prose:
   siteurl: 'http://localhost:4000'
+  ignore:
+    - '/_includes'
+    - '/_layouts'
+    - '/_sass'
+    - '/assets'
+    - '.DS_Store'
+    - '.gitignore'
+    - '_config.yml'
   media: 'media'
   metadata:
     _pages:
