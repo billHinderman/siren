@@ -52,3 +52,13 @@ h4 {
 .pull-up + * {
   margin-top: -176px;
 }
+
+.icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+}
