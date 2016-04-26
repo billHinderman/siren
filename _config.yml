@@ -55,7 +55,7 @@ prose:
             - name: "Page"
               value: "page"
             - name: "Post"
-            value: "post"
+              value: "post"
       - name: "brand-slug"
         field:
           element: "text"
