@@ -59,7 +59,7 @@ prose:
       - name: "brand-slug"
         field:
           element: "text"
-          label: "Brand's Name (slug)"
+          label: "Brand's Name (slug) : Must match brand slug in /data/brands file"
           placeholder: "bed-bath-beyond"
           value: ""
       - name: "testimonial-body"
