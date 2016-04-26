@@ -2,12 +2,12 @@
 
 <ul class="grid">
   {% for savings in brand.savings %}
-    <li class="col-1-3">
-      <dl>
-        <dt>{{ brand-purchase.pay }}</dt>
-        <dd>${{ savings.pay }}</dd>
-        <dt>{{ brand-purchase.get }}</dt>
-        <dd>${{ savings.get }}</dd>
+    <li class="col-full col-1-3-m-l">
+      <dl class="grid">
+        <dt class="col-1-2 content-left">{{ brand-purchase.pay }}</dt>
+        <dd class="col-1-2 content-right">${{ savings.pay }}</dd>
+        <dt class="col-1-2 content-left">{{ brand-purchase.get }}</dt>
+        <dd class="col-1-2 content-right">${{ savings.get }}</dd>
       </dl>
       <a class="button bold" href="">{{ brand-purchase.get }} ${{ savings.save }} {{ brand-purchase.more }}</a>
     </li>
