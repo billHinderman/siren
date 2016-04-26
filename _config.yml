@@ -50,12 +50,12 @@ prose:
           element: "select"
           label: "Page Layout"
           options:
-          - name: "Page"
-            value: "page"
-          - name: "Post"
+            - name: "Brand"
+              value: "brand"
+            - name: "Page"
+              value: "page"
+            - name: "Post"
             value: "post"
-          - name: "Default"
-            value: "default"
       - name: "brand-slug"
         field:
           element: "text"
