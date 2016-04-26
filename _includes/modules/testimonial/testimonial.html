@@ -1,3 +1,9 @@
-<section>
+{% assign testimonial = site.data.modules.testimonial %}
+
+<section data-section="testimonial" class="bg-haze content-center">
   {% include modules/testimonial/_testimonial_headline.html %}
+
+  {% include modules/testimonial/_testimonial_image.html %}
+
+  {% include modules/testimonial/_testimonial_quote.html %}
 </section>

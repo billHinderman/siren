@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: brand
 title: About
 permalink: "/buy-dell-gift-cards"
 published: true
@@ -12,8 +12,3 @@ date: 2016-04-25 09:33:15
 "testimonial-name-first": Mark
 "testimonial-name-last": C.
 ---
-Testbug.
-
-{% assign brand = site.data.brands[page.brand-slug] %}
-
-{{ brand.name-pretty }}

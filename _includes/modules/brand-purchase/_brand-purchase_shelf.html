@@ -1,0 +1,18 @@
+<div>
+  <h1>{{ brand-purchase.headline }}</h1>
+
+  <ul>
+    {% for savings in brand.savings %}
+      <li>
+        <dl>
+          <dt>{{ brand-purchase.pay }}</dt>
+          <dd>${{ savings.pay }}</dd>
+          <dt>{{ brand-purchase.get }}</dt>
+          <dd>${{ savings.get }}</dd>
+        </dl>
+        <a href="">{{ brand-purchase.get }} ${{ savings.save }} {{ brand-purchase.more }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

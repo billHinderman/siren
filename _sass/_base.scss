@@ -2,3 +2,36 @@ body {
   font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
+
+h1,
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 18px;
+}
+
+.bg-cover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.header-default {
+  position: absolute;
+}
+.raise-logo {
+  display: block;
+  margin: 12px;
+}
+
+section {
+  padding: 44px 16px;
+  @media screen and (min-width: $m-l) {
+      padding: 44px;
+  }
+}
