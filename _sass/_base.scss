@@ -2,19 +2,31 @@
   box-sizing: border-box;
 }
 body {
+  background: red;
+  color: $color_nevada;
   font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
 h1,
 h2 {
+  color: $color_mako;
   font-size: 36px;
 }
 h3 {
   font-size: 18px;
 }
 h4 {
+  color: $color_mako;
   font-weight: bold;
+}
+
+.border {
+  border: 1px solid $color-tiara;
+}
+
+.shadow {
+  @include box-shadow(0, 16px, 20px, -12px, $color-tower);
 }
 
 .bg-cover {
@@ -41,15 +53,22 @@ h4 {
   margin: 12px;
 }
 
-.section {
+.section,
+.module {
   padding: 44px 16px;
+  position: relative;
   @media screen and (min-width: $m-l) {
       padding: 44px;
   }
 }
-.section-wrapper {
+.section-wrapper,
+.module-wrapper {
   margin: auto;
   max-width: $l;
+}
+
+.headline-wrapper {
+  padding: 0 0 44px 0;
 }
 
 .pull-up {
@@ -57,6 +76,10 @@ h4 {
 }
 .pull-up + * {
   margin-top: -176px;
+}
+
+.pull-in {
+  padding-bottom: 0;
 }
 
 .icon {
@@ -67,4 +90,25 @@ h4 {
   display: inline-block;
   height: 44px;
   width: 44px;
+}
+.z-hide {
+  z-index: -1;
+}
+.z-null {
+  z-index: 0;
+}
+.z-above {
+  z-index: 1;
+}
+.z-header {
+  z-index: 2;
+}
+.z-menu {
+  z-index: 2;
+}
+.z-modal {
+  z-index: 3;
+}
+.z-max {
+  z-index: 4;
 }
