@@ -1,3 +1,5 @@
-<section class="bg-cover content-center" data-bg="{{ brand.img-header }}" style="background-color: {{ brand.color }};">
-  {% include modules/brand-header/_brand-header_logo.html %}
+<section class="section bg-cover content-center pull-up" style="background-color: {{ brand.color }}; background-image: url('{{ brand.img-header }}')">
+  <div class="section-wrapper">
+    {% include modules/brand-header/_brand-header_logo.html %}
+  </div>
 </section>

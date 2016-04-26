@@ -29,9 +29,20 @@ h3 {
   margin: 12px;
 }
 
-section {
+.section {
   padding: 44px 16px;
   @media screen and (min-width: $m-l) {
       padding: 44px;
   }
+}
+.section-wrapper {
+  margin: auto;
+  max-width: $l;
+}
+
+.pull-up {
+  padding-bottom: 176px;
+}
+.pull-up + * {
+  margin-top: -176px;
 }
