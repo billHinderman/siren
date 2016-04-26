@@ -4,8 +4,13 @@
   <div class="section-wrapper">
     {% include modules/testimonial/_testimonial_headline.html %}
 
-    {% include modules/testimonial/_testimonial_image.html %}
-
-    {% include modules/testimonial/_testimonial_quote.html %}
+    <div class="grid">
+      <div class="col-1-2">
+        {% include modules/testimonial/_testimonial_image.html %}
+      </div>
+      <div class="col-1-2">
+        {% include modules/testimonial/_testimonial_quote.html %}
+      </div>
+    </div>
   </div>
 </section>

@@ -1,8 +1,8 @@
 <h1>{{ brand-purchase.headline }}</h1>
 
-<ul>
+<ul class="grid">
   {% for savings in brand.savings %}
-    <li>
+    <li class="col-1-3">
       <dl>
         <dt>{{ brand-purchase.pay }}</dt>
         <dd>${{ savings.pay }}</dd>

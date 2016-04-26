@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -9,6 +12,9 @@ h2 {
 }
 h3 {
   font-size: 18px;
+}
+h4 {
+  font-weight: bold;
 }
 
 .bg-cover {
