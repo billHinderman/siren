@@ -5,15 +5,13 @@
   <body class="{{ page.brand-slug }}">
     {% assign brand = site.data.brands[page.brand-slug] %}
     {% include structural/header.html %}
-    <div class="page-content">
-      <div class="wrapper">
+      <main class="page-wrapper">
 
         {% include modules/brand-header/brand-header.html %}
         {% include modules/brand-purchase/brand-purchase.html %}
         {% include modules/value-prop/value-prop.html %}
         {% include modules/testimonial/testimonial.html %}
-      </div>
-    </div>
+      </main>
 
     {% include structural/footer.html %}
   </body>
