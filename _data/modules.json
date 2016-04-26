@@ -1,0 +1,30 @@
+{
+  "brand-purchase": {
+    "headline": "How much are you planning to spend?",
+    "pay": "Pay",
+    "get": "Get",
+    "more": "More"
+  },
+  "testimonial": {
+    "preamble": "Before you spend it, Raise it like "
+  },
+  "value-prop": {
+    "headline-title": "Think of Raise like a magic wallet.",
+    "headline-body": "Put regular cash in, get higher-value gift cards out. Redeem them instantly at checkout.",
+    "guarantee": {
+      "icon": "/media/global/i-guarantee.png",
+      "headline": "100 Day Guarantee",
+      "body": "Count on us for every raise- we back all orders with our 100% guarantee for 100 days."
+    },
+    "delivery": {
+      "icon": "/media/global/i-delivery.png",
+      "headline": "Free & Instant Delivery",
+      "body": "We send cards digitally and make it easy to redeem them from your phone or online."
+    },
+    "spend": {
+      "icon": "/media/global/i-spend.png",
+      "headline": "More to Spend",
+      "body": "Cards are priced below face-value so you have more to spend at your favorite stores."
+    }
+  }
+}
