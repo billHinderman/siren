@@ -1,0 +1,28 @@
+.brand-shelf {
+  text-transform: uppercase;
+  @media screen and (min-width: $m-l) {
+    &:not(:last-of-type) {
+      border-right: 2px solid $color-tiara;
+    }
+  }
+}
+.brand-shelf .button {
+  margin: 16px 0 44px;
+}
+.brand-shelf-item {
+  line-height: 1.25;
+  margin: auto;
+  max-width: 288px;
+  @media screen and (min-width: $m-l) {
+    margin: 0 16px;
+  }
+}
+.brand-shelf-item span {
+  padding: 8px 0;
+}
+.brand-shelf-item:first-of-type {
+  border-bottom: 1px solid $color-tiara;
+}
+.brand-shelf-label {
+  font-weight: bold;
+}

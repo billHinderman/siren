@@ -1,3 +1,20 @@
 .testimonial-image {
   height: 320px;
+  margin: 0 auto 44px;
+  max-width: 480px;
+}
+.testimonial-card {
+  display: none;
+  @media screen and (min-width: $m-l) {
+    display: block;
+    margin-bottom: 44px;
+    max-width: 220px;
+  }
+}
+.testimonial-quote {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.testimonial-author {
+  text-transform: uppercase;
 }
