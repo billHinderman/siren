@@ -11,7 +11,7 @@ email: bill.hinderman@raise.com
 description: > # this means to ignore newlines until "baseurl:"
   Proof of concept for Raise Marketplace fact page system.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://billhinderman.github.io/siren" # the base hostname & protocol for your site
 twitter_username: raise
 github_username:  billHinderman
 
@@ -23,7 +23,7 @@ collections:
     output: true
 
 prose:
-  siteurl: 'http://localhost:4000'
+  siteurl: 'http://billhinderman.github.io/siren'
   ignore:
     - '/_includes'
     - '/_layouts'
