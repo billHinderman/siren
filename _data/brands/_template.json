@@ -1,0 +1,25 @@
+{
+  "color": "#ffcc22",
+  "name-pretty": "Template",
+  "img-card": "/media/brands/template/card.png",
+  "img-header": "/media/brands/template/bg.png",
+  "img-logo": "/media/brands/template/logo.png",
+  "img-testimonial": "/media/brands/template/testimonial.png",
+  "savings": [
+    {
+      "pay": 23,
+      "get": 25,
+      "save": 2
+    },
+    {
+      "pay": 46,
+      "get": 50,
+      "save": 4
+    },
+    {
+      "pay": 92,
+      "get": 100,
+      "save": 8
+    }
+  ],
+}
