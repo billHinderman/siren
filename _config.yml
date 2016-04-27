@@ -10,8 +10,8 @@ title: Raise Siren PoC
 email: bill.hinderman@raise.com
 description: > # this means to ignore newlines until "baseurl:"
   Proof of concept for Raise Marketplace fact page system.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://billhinderman.github.io/siren" # the base hostname & protocol for your site
+baseurl: "/siren" # the subpath of your site, e.g. /blog
+url: "http://billhinderman.github.io" # the base hostname & protocol for your site
 twitter_username: raise
 github_username:  billHinderman
 
